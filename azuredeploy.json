@@ -21,11 +21,11 @@
     "resources": [{
             "type": "Microsoft.Web/serverfarms",
             "sku": {
-                "name": "S1",
+                "name": "S2",
                 "tier": "Standard",
-                "size": "S1",
+                "size": "S2",
                 "family": "S",
-                "capacity": 1
+                "capacity": 2
             },
             "kind": "linux",
             "name": "[parameters('app_svc_plan_name')]",
